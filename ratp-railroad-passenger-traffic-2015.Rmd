@@ -1,7 +1,7 @@
 ---
 title: "Passenger Traffic on the Paris RATP Railway Network in 2015"
-author: "Sébastien Pujadas"
-date: "12th February 2017"
+author: "Rakesh Shah"
+date: "April 17, 2021"
 output: html_document
 ---
 
@@ -12,9 +12,9 @@ knitr::opts_chunk$set(cache = TRUE, echo = FALSE, message = FALSE,
 
 ## Introduction
 
-This project was created as part of the Developing Data Products course of the Coursera [Data Science Specialisation](https://www.coursera.org/specializations/jhu-data-science). The goal of the project is to create a web page using R Markdown that features a map created with Leaflet, and to host the resulting web page on either GitHub Pages, RPubs, or NeoCities.
+This project was created as part of the Developing Data Products course of the Coursera [Data Science Specialisation]. The goal of the project is to create a web page using R Markdown that features a map created with Leaflet, and to host the resulting web page on either GitHub Pages, RPubs, or NeoCities.
 
-*Note – The R Markdown source code of this presentation can be found in [this GitHub repository](https://github.com/spujadas/coursera-ddp-leaflet).*
+*Note – The R Markdown source code of this presentation can be found in [this GitHub repository].*
 
 ## Map of passenger traffic
 
@@ -333,10 +333,10 @@ m
 
 This project uses the following data:
 
-- [Positions géographiques des stations du réseau RATP](https://data.ratp.fr/explore/dataset/positions-geographiques-des-stations-du-reseau-ratp/information/) (geographic position of stations on RATP network), released under the [Open Database License 1.0](http://www.vvlibri.org/fr/licence/odbl/10/fr/legalcode)
+- (https://data.ratp.fr/explore/dataset/positions-geographiques-des-stations-du-reseau-ratp/information/) (geographic position of stations on RATP network), released under the [Open Database License 1.0](http://www.vvlibri.org/fr/licence/odbl/10/fr/legalcode)
 
-- [Trafic annuel entrant par station du réseau ferré 2015](https://data.ratp.fr/explore/dataset/trafic-annuel-entrant-par-station-du-reseau-ferre-2015/export/) (annual traffic by station on railway network 2015), released under the [Etalab Open License](https://www.etalab.gouv.fr/licence-ouverte-open-licence).
+- (https://data.ratp.fr/explore/dataset/trafic-annuel-entrant-par-station-du-reseau-ferre-2015/export/) (annual traffic by station on railway network 2015), released under the [Etalab Open License](https://www.etalab.gouv.fr/licence-ouverte-open-licence).
 
-- [Tracés du réseau de transport ferré d'Ile-de-France](https://opendata.stif.info/explore/dataset/traces-du-reseau-ferre-idf/) (layout of the Île-de-France railway network), released under the [Etalab Open License](https://www.etalab.gouv.fr/licence-ouverte-open-licence).
+- (https://opendata.stif.info/explore/dataset/traces-du-reseau-ferre-idf/) (layout of the Île-de-France railway network), released under the [Etalab Open License](https://www.etalab.gouv.fr/licence-ouverte-open-licence).
 
-- [Indices et couleurs de lignes du réseau ferré RATP](https://data.ratp.fr/explore/dataset/indices-et-couleurs-de-lignes-du-reseau-ferre-ratp/) (icons and colours of the RATP railway network lines), released under the [RATP licence](http://data.ratp.fr/page/cgu_ratp).
+- (https://data.ratp.fr/explore/dataset/indices-et-couleurs-de-lignes-du-reseau-ferre-ratp/) (icons and colours of the RATP railway network lines), released under the [RATP licence](http://data.ratp.fr/page/cgu_ratp).
